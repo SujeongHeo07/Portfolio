@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url('fonts/AppleSDGothicNeoB00.woff2') format('woff2'),
+        url('fonts/AppleSDGothicNeoB00.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url('fonts/AppleSDGothicNeoEB00.woff2') format('woff2'),
+        url('fonts/AppleSDGothicNeoEB00.woff') format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url('fonts/AppleSDGothicNeoH00.woff2') format('woff2'),
+        url('fonts/AppleSDGothicNeoH00.woff') format('woff');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url('fonts/AppleSDGothicNeoL00.woff2') format('woff2'),
+        url('fonts/AppleSDGothicNeoL00.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url('fonts/AppleSDGothicNeoM00.woff2') format('woff2'),
+        url('fonts/AppleSDGothicNeoM00.woff') format('woff');
+    font-weight: 500;
+}
+
+/* 
+google font
+*/
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('SourceSerifPro-SemiBold.woff2') format('woff2'),
+        url('SourceSerifPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('SourceSerifPro-SemiBoldIt.woff2') format('woff2'),
+        url('SourceSerifPro-SemiBoldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Bold.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-BoldIt.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-BoldIt.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-ExtraLight.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-It.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-It.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-ExtraLightIt.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-ExtraLightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Light.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-LightIt.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-Regular.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-SemiBold.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('fonts/SourceSerifPro-SemiBoldIt.woff2') format('woff2'),
+        url('fonts/SourceSerifPro-SemiBoldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+

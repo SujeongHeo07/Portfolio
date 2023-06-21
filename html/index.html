@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Portfolio">
+    <meta property="og:url" content="http://Portfolio.com/">
+    <meta property="og:image" content="../image/common/logo.svg">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body class="main">
+    <header class="header">
+        <h1 class="logo"><a href="javascript:void(0)">Sujeong Heo</a></h1>
+        
+        <nav class="menu">
+            <ul class="depth1">
+                <li><a href="#section_1" class="nav nav_1 active cursor_hover">Portfolio</a></li>
+                <li><a href="#section_2" class="nav nav_2 cursor_hover">About</a></li>
+                <li><a href="#section_3" class="nav nav_3 cursor_hover">Project</a></li>
+                <li><a href="#section_4" class="nav nav_4 cursor_hover">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="section visual" id="section_1">
+                    
+            <div class="visual_text">
+                <h2 class="tit top">Hello! i'm <span class="name">Sujeong Heo</span></h2>
+                <p class="turn_text">
+                    <span class="txt">Creative</span>
+                    <span class="txt">Collaborative</span>
+                    <span class="txt">Punctual</span>
+                    <span class="txt">UI/UX</span>
+                </p>
+                <h2 class="tit bottom">Web publisher</h2>
+            </div>
+            
+            <div class="scroll_mouse_animation"></div>  
+        </section>
+
+        <section class="section info" id="section_2">
+            <div class="container">
+                <h2 class="h2_title">About</h2>
+                
+                <div class="desc textHideAni"><span class="showText">안녕하세요 :)</span></div>
+                <div class="desc textHideAni"><span class="showText">스스로 고민하며 <span class="point">새로운 도전</span>을 위해 노력하는 웹퍼블리셔 허수정입니다.</span></div>
+                <div class="desc textHideAni"><span class="showText">함께 <span class="point">배움</span>과 <span class="point">성장</span>을 나누며 멋진 결과물을 이끌어내고 싶습니다.</span></div>
+                
+                <div class="about_box">
+                    <object type="image/svg+xml" data="../image/illar.svg" class="illustration"></object>
+                
+                    <ul class="about_list">
+                        <li>
+                            <h3>History</h3>
+                            <ul>
+                                <li>19.02 우송정보대 애완동물학부 졸업</li>
+                                <li>19.01~20.02 아프리카메디컬 수의테크니션 근무</li>
+                                <li>20.05~20.09 그린컴퓨터아카데미 웹디자인 수료</li>
+                                <li>20.12~23.01 리틀루트 웹퍼블리셔 근무</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h3>License</h3>
+                            <ul>
+                                <li>2017 반려동물관리사 1급</li>
+                                <li>2018 자동차운전면허 2종 보통</li>
+                                <li>2019 JLPT N3</li>
+                                <li>2020 GTQ 1급</li>
+                                <li>2020 웹디자인기능사</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h3>Skill</h3>
+                            <ul class="skill">
+                                <li class="html">
+                                    <span class="blind">HTML</span>
+                                </li>
+                                <li class="css">
+                                    <span class="blind">CSS</span>
+                                </li>
+                                <li class="js">
+                                    <span class="blind">JS</span>
+                                </li>
+                                <li class="jquery">
+                                    <span class="blind">JQuery</span>
+                                </li>
+                                <li class="ps">
+                                    <span class="blind">Photo shop</span>
+                                </li>
+                                <li class="ai">
+                                    <span class="blind">Illustrator</span>
+                                </li>
+                                <li class="figma">
+                                    <span class="blind">Figma</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+            
+        <section class="section project" id="section_3">
+            <div class="container">
+                <div class="project_li">
+                    <h2 class="h2_title">project</h2>
+                    <ul>
+                        <li>
+                            <button type="button" class="active cursor_hover" onclick="projectView(this, 1)">
+                                <span class="num now">01.</span>
+                                <p class="text">제로띵스<span class="type">responsive web</span></p>
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="cursor_hover" onclick="projectView(this, 2)">
+                                <span class="num">02.</span>
+                                <p class="text">BLUE BOTTLE<span class="type">responsive web</span></p>
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button"class="cursor_hover" onclick="projectView(this, 3)">
+                                <span class="num">03.</span>
+                                <p class="text">READY:MADE<span class="type">pc web</span></p>
+                            </button>
+                        </li>
+                    </ul>    
+                </div>
+                
+                <div class="project_view_area">
+                    <div class="project_view on" id="project_1">
+                        <span class="project_num">01</span>
+                        <span class="img_box"><img src="../image/project/project_zerothings.jpg" alt="제로띵스" /></span>
+                        <div class="text_box">
+                            <ul>
+                                <li>
+                                    <strong class="tit">프로젝트명</strong>
+                                    <p class="txt">제로띵스</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">구분</strong>
+                                    <p class="txt">쇼핑몰 리뉴얼</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">기여도</strong>
+                                    <p class="txt">100%</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">작업기간</strong>
+                                    <p class="txt">2023.04.20 ~ 2023.05.12</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">사용스킬</strong>
+                                    <p class="txt">HTML5, CSS3, jQuery, JS</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">디바이스</strong>
+                                    <p class="txt">Pc, Moblie, Tablet</p>
+                                </li>
+                            </ul>
+                            <a href="https://sujeongheo07.github.io/zerothings/html/" target="_blank" class="btn cursor_hover">site view</a>
+                        </div>
+                    </div>
+                    <div class="project_view" id="project_2">
+                        <span class="project_num">02</span>
+                        <span class="img_box"><img src="../image/project/project_bluebottle.jpg" alt="블루보틀커피" /></span>
+                        <div class="text_box">
+                            <ul>
+                                <li>
+                                    <strong class="tit">프로젝트명</strong>
+                                    <p class="txt">BLUE BOTTE COFFEE</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">구분</strong>
+                                    <p class="txt">홈페이지 메인 리뉴얼</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">기여도</strong>
+                                    <p class="txt">100%</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">작업기간</strong>
+                                    <p class="txt">2023.06.13 ~ 2023.06.17</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">사용스킬</strong>
+                                    <p class="txt">HTML5, CSS3, jQuery, Figma</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">디바이스</strong>
+                                    <p class="txt">Pc, Moblie, Tablet</p>
+                                </li>
+                            </ul>
+                            <a href="https://sujeongheo07.github.io/bluebottle/html/" target="_blank" class="btn cursor_hover">site view</a>
+                        </div>
+                    </div>
+                    <div class="project_view" id="project_3">
+                        <span class="project_num">03</span>
+                        <span class="img_box"><img src="../image/project/project_readymade.jpg" alt="READY:MADE" /></span>
+                        <div class="text_box">
+                            <ul>
+                                <li>
+                                    <strong class="tit">프로젝트명</strong>
+                                    <p class="txt">READY:MADE</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">구분</strong>
+                                    <p class="txt">팀프로젝트</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">기여도</strong>
+                                    <p class="txt">기획 50%, 퍼블리싱 100%</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">작업기간</strong>
+                                    <p class="txt">2023.05.14 ~ 2023.06.10</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">사용스킬</strong>
+                                    <p class="txt">HTML5, CSS3, jQuery, JS, Figma</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">디바이스</strong>
+                                    <p class="txt">Pc</p>
+                                </li>
+                                <li>
+                                    <strong class="tit">라이브러리</strong>
+                                    <p class="txt">Swiper, CKEditor5</p>
+                                </li>
+                            </ul>
+                            <a href="https://sujeongheo07.github.io/readymade/html/" target="_blank" class="btn cursor_hover">site view</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="section contact" id="section_4">
+           
+            <h2 class="blind">content</h2>
+            <div>
+                <p class="txt textHideAni"><span class="showText">Would you like to work with me?</span></p>
+                <div class="cylinder cursor_hover">
+                    <div class="square">
+                        <img src="../image/contact/KakaoTalkChat.jpg" alt="카카오 오픈채팅" />
+                    </div>
+
+                    <div class="circle">
+                        <div class="contact_content">
+                            <a href="javascript:void(0)" class="email" onclick="emailCopy()">chomal07@naver.com</a>
+                            <p class="text">메일을 누르시면 복사됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="small_text textHideAni"><span class="showText">Hover here</span></p>
+            </div>
+            
+        </section>
+        
+        <button type="button" class="top_btn" onclick="topScroll()" style="display:none;">TOP</button>
+    </main>
+    
+    <!-- cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor2" id="cursor2"></div>
+    <div class="cursor3" id="cursor3"></div>
+</body>
+</html>
+
+
