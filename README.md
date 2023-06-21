@@ -2,7 +2,7 @@
 
 안녕하세요! 웹퍼블리셔 허수정입니다.
 
-https://sujeongheo07.github.io/Portfolio/html/
+https://sujeongheo07.github.io/Portfolio/html/index.html
 
 
 😉 my Profile
