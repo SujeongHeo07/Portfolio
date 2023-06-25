@@ -24,7 +24,6 @@ https://sujeongheo07.github.io/Portfolio/html/index.html
 
 📚 my Project
 
-* 레디메이드 https://sujeongheo07.github.io/readymade/html/
-* 제로띵스 https://sujeongheo07.github.io/zerothings/html/main.html
-* 블루보틀 https://sujeongheo07.github.io/bluebottle/html/
-
+* 레디메이드 https://github.com/SujeongHeo07/readymade
+* 제로띵스 https://github.com/SujeongHeo07/zerothings
+* 블루보틀 https://github.com/SujeongHeo07/bluebottle
